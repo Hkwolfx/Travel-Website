@@ -34,3 +34,17 @@ h4,
 h5 {
   font-size: 2.8rem;
 }
+
+/* Take out dark blue color on <li> items */
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Nav Section With HERO */
+
+.main-head {
+  background: #131c27;
+  color: white;
+}
