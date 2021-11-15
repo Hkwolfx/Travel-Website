@@ -106,6 +106,31 @@ nav ul {
   padding: 5rem;
 }
 
+/* Locations section */
+
+#locations {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url(/img/new-york-page.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.locations-head {
+  width: 90%;
+  margin: auto;
+}
+.locations-head h2 {
+  padding: 1rem 0rem;
+  text-decoration: underline;
+  text-decoration-thickness: 0.5rem;
+}
+.locations-head h3 {
+  padding: 4rem 0rem;
+}
+
+/* Media query */
 /* to put the logo on the top center at 932px and center the <li> */
 /* + reduce the font-size */
 
