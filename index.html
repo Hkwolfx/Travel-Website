@@ -92,16 +92,20 @@
         <header class="form-head">
           <h2>Contact Us</h2>
         </header>
-        <form>
+        <form action="https://formspree.io/f/mleaqoqd" method="POST">
           <div class="name-form">
             <label for="name">Name:</label>
             <input type="text" class="name" required />
           </div>
           <div class="email-form">
             <label for="email">Email:</label>
-            <input type="email" required name="email" />
+            <input type="email" required name="_replyto" />
           </div>
-          <button type="submit">Submit</button>
+          <div class="message-form">
+            <label for="message">Message:</label>
+            <textarea id="textmessage" name="message"></textarea>
+          </div>
+          <button type="submit">Send</button>
         </form>
       </div>
     </section>
